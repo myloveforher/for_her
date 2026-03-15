@@ -719,13 +719,13 @@
     <div class="song-player" onclick="playLiamYes()">
       <div class="play-icon" id="playIconYes">▶</div>
       <div class="song-info">
-        <div class="song-name">Strip That Down — Liam Payne ft. Quavo</div>
+        <div class="song-name">Always You — Louis Tomlinson</div>
         <div class="song-artist">🎵 Playing for you</div>
       </div>
     </div>
 
     <audio id="audioYes" loop>
-      <source src="https://res.cloudinary.com/dsnr0jw6b/video/upload/v1773524242/Liam_Payne_-_Strip_That_Down_ft._Quavo_yugm7p.mp3" type="audio/mpeg">
+      <source src="https://res.cloudinary.com/dsnr0jw6b/video/upload/v1773547659/Louis_Tomlinson_-_Always_You_Official_Lyric_Video_mzcuhj.mp3" type="audio/mpeg">
     </audio>
 
     <p id="tapToPlay" style="display:none; font-size:14px; color:#fbbf24; margin-top:10px; cursor:pointer;" onclick="playLiamYes()">
@@ -840,7 +840,7 @@
     spawnStars();
 
     const audio = document.getElementById("audioYes");
-    audio.currentTime = 39;
+    audio.currentTime = 0;
     const playPromise = audio.play();
     if(playPromise !== undefined) {
       playPromise.then(() => {
